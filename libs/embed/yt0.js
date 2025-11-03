@@ -1,5 +1,5 @@
 window.bLoadedYT = true; //ロード完了扱いにする
-var scriptUrl = 'libs/embed/yt.js';
+var scriptUrl = 'yt.js';
 try {
     var ttPolicy = window.trustedTypes.createPolicy("youtube-widget-api", {
         createScriptURL: function(x) {
